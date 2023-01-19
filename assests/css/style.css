@@ -186,7 +186,7 @@ body{
 /* swiper5 */
 .visual_container5{display: block;height: 100%;}
 .visual_swiper5 .swiper-wrapper{height: 694px; }
-.visual_container5 .swiper-slide{background: url(../img/s_2.png) no-repeat center;background-size: cover;display: flex;align-items: center;color: #fff;margin: 0 auto;text-align: center;height: 100%;}
+.visual_container5 .swiper-slide{/*background: url(../img/s_3.png) no-repeat center;*/background-size: cover;display: flex;align-items: center;color: #fff;margin: 0 auto;text-align: center;height: 100%;}
 .visual_container5 .swiper-slide .slide-wrap{ position: relative; padding-bottom: 50px; width: 90%; max-width: 1560px; margin: 0 auto; }
 
 .visual_swiper5 .swiper-bg2{position: absolute; left: 0; top: 0; height: 100%;width: 100%; backdrop-filter: blur(10px);}
@@ -209,7 +209,7 @@ body{
 .visual_swiper5 .slide-box .slide-left > .res-box > .user::after{content: ""; display: block; position: absolute; top: 0; left: 0; background: #fff; width: 100%; height: 100%; opacity: 0.1;   border-radius: 25px;z-index: 5; backdrop-filter: blur(10px);}
 .visual_swiper5 .slide-box .slide-left > .res-box > .user > span{position: relative; display: inline-block; z-index: 99; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 18px;}
 .visual_swiper5 .slide-box .slide-right{display: flex;justify-content: space-between; width: 80.19%; max-width: 1251px;}  
-.visual_swiper5 .slide-box .slide-right > .img-box {position:relative; top:0; left:0; display: flex; flex-direction: column;width:calc(33.34% - 37px); margin-left: 37px;font-size: 0;} 
+.visual_swiper5 .slide-box .slide-right > .img-box {position:relative; display: flex; flex-direction: column;width:calc(33.34% - 37px); margin-left: 37px;font-size: 0;} 
 .visual_swiper5 .slide-box .slide-right > .img-box:nth-child(1){margin-left: 36px;}
 .visual_swiper5 .slide-box .slide-right > .img-box > div {width: 100%;max-width: 380px;font-size: 0;}
 .visual_swiper5 .slide-box .slide-right > .img-box span {  position:relative; z-index:1; width: 100%;padding-top:100%;  display:inline-block;font-size: 0;}
@@ -240,10 +240,10 @@ body{
   .visual_swiper5 .slide-box .slide-left > .res-box{width: 80%;}
   .visual_swiper5 .slide-box .slide-left > .res-box{display: inline-block;  padding-left: 2%; padding-top: 0; overflow: hidden; width: 79%;}
   .visual_swiper5 .slide-box .slide-left > .res-box > div {line-height: 1.2;}
-  .visual_swiper5 .slide-box .slide-left > .res-box > div:nth-child(1) > p{font-size: 14px;}
+  .visual_swiper5 .slide-box .slide-left > .res-box > div:nth-child(1) > p{font-size: 14px; line-height: 1.2;}
   .visual_swiper5 .slide-box .slide-left > .res-box > div:nth-child(1) > span{font-size: 12px; padding-top: 0;}
   .visual_swiper5 .slide-box .slide-left > .res-box > .user{min-width: auto;}
-  .visual_swiper5 .slide-box .slide-left > .res-box > .user img{width: 20px; height: 20px;}
+  .visual_swiper5 .slide-box .slide-left > .res-box > .user img{width: 20px; height: 20px; margin-right: 5px;}
   .visual_swiper5 .slide-box .slide-left > .res-box > .user > span{font-size: 12px;}
   .visual_swiper5 .slide-box .slide-left > .res-box > .user{max-width: 100px; position: relative;}
   .visual_swiper5 .slide-box .slide-left > .res-img > span img{border: solid 7px rgba(255, 255, 255, 0.1);} 
@@ -274,10 +274,13 @@ body{
 
 @media screen and (max-width:500px){
   .visual_swiper5 .slide-box .slide-left{flex-direction: row; }
-  .visual_swiper5 .slide-box .slide-left > .res-img > span img{border: solid 3px rgba(255, 255, 255, 0.1);}
+  .visual_swiper5 .slide-box .slide-left > .res-img > span img{border: solid 5px rgba(255, 255, 255, 0.1);}
  
   .visual_swiper5 .slide-box .slide-right{width: 100%; margin-top: 10px;}
-  .visual_swiper5 .slide-box .slide-right > .img-box{width: calc(50% - 10px); margin-left: 20px;}
+
+  /* .visual_swiper5 .slide-box .slide-right > .img-box{width: calc(50% - 10px); margin-left: 20px;} */
+  .visual_swiper5 .slide-box .slide-right > .img-box{width: calc(50% - 5px); margin-left: 15px;}
+  
   .visual_swiper5 .slide-box .slide-right > .img-box:nth-child(1){margin-left: 0}
   .visual_swiper5 .slide-box .slide-right > .img-box:nth-child(3){display: none;}
   .visual_swiper5 .slide-box .slide-right > .img-box > div > .txt{padding: 5px 10px;}
