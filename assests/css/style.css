@@ -198,10 +198,10 @@ body{
 .visual_swiper5 .slide-box .slide-left > .res-img{width: 100%;max-width: 151px;font-size: 0;display: inline-block;}
 .visual_swiper5 .slide-box .slide-left > .res-img > span{  position: relative;z-index: 1;width: 100%;padding-top: 100%;max-height: 151px;display: inline-block;/*  */font-size: 0;}
 .visual_swiper5 .slide-box .slide-left > .res-img > span img{position: absolute;  left: 0;    top: 0;  margin: 0 auto;  display: inline-block;  width: 100%;  height: 100%;object-fit: cover;  object-position: center center;  border-radius: 20px;  border: solid 10px rgba(255, 255, 255, 0.1);}
-.visual_swiper5 .slide-box .slide-left > .res-box{ position: relative; height: 100%; padding-top: 5.5%;}
+.visual_swiper5 .slide-box .slide-left > .res-box{ position: relative; height: 100%; padding-top: 5.5%; z-index: 99;}
 .visual_swiper5 .slide-box .slide-left > .res-box > div:nth-child(1) > p{font-size: 30px; font-weight: bold; line-height: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .visual_swiper5 .slide-box .slide-left > .res-box > div:nth-child(1) > span{display: inline-block; font-size: 18px; opacity: 0.9; padding-top: 6px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 80%;line-height: 1;}
-.visual_swiper5 .slide-box .slide-left > .res-box > .user{position: absolute; bottom: 0; display: flex; align-items: center; border-radius: 25px; background: #000; max-width: 200px;height: 100%;max-height: 50px;opacity: 0.9;/*display: flex;align-items: center;*/padding: 5px 10px 5px 5px;}
+.visual_swiper5 .slide-box .slide-left > .res-box > .user{position: absolute; bottom: 0; display: flex; align-items: center; border-radius: 25px; background: #000; min-width: 159px; max-width: 200px;height: 100%;max-height: 50px;opacity: 0.9;/*display: flex;align-items: center;*/padding: 5px 10px 5px 5px;}
 
 .visual_swiper5 .slide-box .slide-left > .res-box > .user > img{width: 40px; height: 40px; border-radius: 50%; margin-right: 10px; object-fit: cover;}
 
@@ -242,6 +242,7 @@ body{
   .visual_swiper5 .slide-box .slide-left > .res-box > div {line-height: 1.2;}
   .visual_swiper5 .slide-box .slide-left > .res-box > div:nth-child(1) > p{font-size: 14px;}
   .visual_swiper5 .slide-box .slide-left > .res-box > div:nth-child(1) > span{font-size: 12px; padding-top: 0;}
+  .visual_swiper5 .slide-box .slide-left > .res-box > .user{min-width: auto;}
   .visual_swiper5 .slide-box .slide-left > .res-box > .user img{width: 20px; height: 20px;}
   .visual_swiper5 .slide-box .slide-left > .res-box > .user > span{font-size: 12px;}
   .visual_swiper5 .slide-box .slide-left > .res-box > .user{max-width: 100px; position: relative;}
