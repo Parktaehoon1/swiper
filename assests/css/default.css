@@ -1,0 +1,40 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 15px;
+   box-sizing: border-box;
+   -moz-box-sizing: border-box; /* 추가 *//* Firefox, WebKit, Opera 및 IE8+ 에서 지원됨 */
+}
+
+html, body {
+   line-height: 1.5;
+   -webkit-text-size-adjust: 100%;
+   scroll-behavior: smooth; /* 추가 */
+}
+
+label { cursor: pointer }
+label, select, input, button { outline:none}
+table { border-collapse: collapse; border-spacing: 0 }
+img { max-width: 100%; border: 0; margin:0; padding:0; font-size:0}
+ol, ul, li { list-style: none }
+img, fieldset { border: 0  }
+legend, caption { visibility: hidden; overflow: hidden; position: absolute; width: 0; height: 0; margin: 0; padding: 0; line-height: 0 }
+object, embed, video {max-width:100%;}
+
+a{ display:inline-block; cursor:pointer;color:inherit }
+a:link, a:visited,a:hover, a:active { text-decoration: none }

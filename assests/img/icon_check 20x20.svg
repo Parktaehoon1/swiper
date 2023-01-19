@@ -1,0 +1,10 @@
+<svg data-name="icon_check 20x20" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="sek2mezf0a">
+            <path data-name="icon 24x24" style="fill:none" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="20x20" style="clip-path:url(#sek2mezf0a)">
+        <text data-name="" transform="translate(-2 20)" style="fill:#1a1a1a;font-size:24px;font-family:xeicon"><tspan x="0" y="0"></tspan></text>
+    </g>
+</svg>
